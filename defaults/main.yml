@@ -7,6 +7,7 @@ artifactory_file_name:        "artifactory-{{ artifactory_version }}.rpm"
 artifactory_download_server:  http://dl.bintray.com
 artifactory_download_path:    /content/jfrog/artifactory-rpms
 artifactory_download_url:     "{{ artifactory_download_server }}{{ artifactory_download_path }}/{{ artifactory_file_name }}"
+artifactory_download_timeout: 30
 
 artifactory_tmp_file:         "/tmp/{{ artifactory_file_name }}"
 
