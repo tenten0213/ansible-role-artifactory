@@ -1,6 +1,7 @@
 ---
 dependencies:
   - {role: geerlingguy.java }
+
 galaxy_info:
   author: gtrevg
   description: Maven Repository Manager
@@ -8,9 +9,9 @@ galaxy_info:
   min_ansible_version: 1.4
   platforms:
   - name: EL
-  ¦ versions:
-  ¦ - 6
-  ¦ - 7
+    versions:
+    - 6
+    - 7
   categories:
-  ¦ - development
-  ¦ - packaging
+    - development
+    - packaging
